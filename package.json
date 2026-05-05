@@ -1,0 +1,18 @@
+{
+  "name": "food-ingredients-tfjs-mvp",
+  "version": "1.0.0",
+  "description": "MVP de reconhecimento multi-label de ingredientes com Node.js e TensorFlow.js",
+  "main": "src/predict.js",
+  "type": "commonjs",
+  "scripts": {
+    "train": "node src/train.js",
+    "predict": "node src/predict.js"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^4.22.0",
+    "sharp": "^0.33.5"
+  },
+  "overrides": {
+    "tar": "^7.5.1"
+  }
+}
