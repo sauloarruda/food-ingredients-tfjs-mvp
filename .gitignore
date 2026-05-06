@@ -2,3 +2,5 @@ node_modules/
 saved_model/
 test-food.png
 npm-debug.log*
+.DS_Store
+
